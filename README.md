@@ -11,7 +11,9 @@ This is a final project of Applied Data Science course in NYU
 
 we used two dataset, one is NYC airbnb daily open data from October 2017 to October 2018 obtained from Airbnb Open Data for price analysis.   
   Another is the NYC Airbnb listings data obtained from Inside Airbnb, which contains detailed data on Airbnb property listings.
+ 
   https://www.kaggle.com/peterzhou/airbnb-open-data-in-nyc
+  
   http://insideairbnb.com/get-the-data.html
 
 ## Methods
