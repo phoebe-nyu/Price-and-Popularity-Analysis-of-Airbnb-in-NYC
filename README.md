@@ -19,5 +19,5 @@ http://insideairbnb.com/get-the-data.html
  
 2. For popularity analysis, we defined popularity metrics by applying booking rate, we first calculated median booking rate. If booking rate is lower than median booking rate, it is unpopular, otherwise, it is popular. Then we implemented correlation analysis, obtaining top 20 features that are most related to booking rate. 
 
-3.To forecast popularity, we developed PCA to reduce dimensions. By utilizing logistic regression, random forest and xgboost model, we finally got 0.78 accuracy with XGBoost model 
+3. To forecast popularity, we developed PCA to reduce dimensions. By utilizing logistic regression, random forest and xgboost model, we finally got 0.78 accuracy with XGBoost model 
 
