@@ -17,7 +17,8 @@ http://insideairbnb.com/get-the-data.html
 ## Methods
 1. We established ARIMA and SARIMA models to perform time series analysis and forecast price.
  
-2. For popularity analysis, we defined popularity metrics by applying booking rate, we first calculated median booking rate. If booking rate is lower than median booking rate, it is unpopular, otherwise, it is popular. Then we implemented correlation analysis, obtaining top 20 features that are most related to booking rate. 
+2. For popularity analysis, we defined popularity metrics by applying booking rate, we first calculated median booking rate. If booking rate of the unit is lower than median booking rate, it is unpopular, otherwise, it is popular. Then we labeled popular/unpopular to each unit. 
+There are 80+ features in original dataset, such as host_location, host_response_rate, host_acceptance_race, neighborhood, room type, number of reviews, etc, so we implemented correlation analysis to obtain top 25 features that are most related to booking rate. 
 
-3. To forecast popularity, we developed PCA to reduce dimensions. By utilizing logistic regression, random forest and xgboost model, we finally got 0.78 accuracy with XGBoost model.
+3. Considering plenty of categorical variables, we used ordinal encoder and one hot encoding. We developed PCA to reduce dimensions. By utilizing logistic regression, random forest and xgboost model, we finally got 0.78 accuracy with XGBoost model to forecast popularity. 
 
